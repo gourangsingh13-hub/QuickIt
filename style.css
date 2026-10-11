@@ -1,0 +1,55 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.logo {
+    color: orange;
+}
+
+.address {
+    padding: 10px;
+}
+
+.search {
+    width: 40%;
+    padding: 10px;
+}
+
+.login {
+    padding: 10px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.container img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Mobile screen */
+@media (max-width: 600px) {
+    .header {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .search {
+        width: 90%;
+    }
+}
